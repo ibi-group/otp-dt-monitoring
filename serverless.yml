@@ -1,0 +1,14 @@
+# A config file for use with the cli tool serverless.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+
+service: monitoring
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+# default aws options
+#  stage: dev
+#  region: us-east-1

@@ -4,7 +4,7 @@ This is a very customized monitoring system for checking uptime, sometimes doing
 
 ## Example config:
 
-```
+```yaml
 functions:
   dt-prod:
     # One of the functions (described below)
@@ -26,7 +26,7 @@ functions:
 
 ### CheckForUptime
 
-Takes URL argument. Checks that page loads without error
+Takes `URL` argument. Checks that page loads without error
 
 ### CheckForContent
 
